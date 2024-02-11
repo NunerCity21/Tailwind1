@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix - Login | Tailwind</title>
     <link href="app.css" rel="stylesheet">
 </head>
-<body>
-      
+<body class="bg-cover bg-center">
+    <style>
+        body {
+            background-image: url('./NetflixBackground.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            /* margin: 0; */
+        }
+    </style>
+
+      <header class="flex items-center justify-between p-4">
+        <div>
+            <img src="NexflixLogo.png" alt="Netflix Logo" width="150px" class="">
+        </div>
+        <div class="flex gap-4">
+            <button class="border border-white text-white py-2 px-4">English</button>
+            <button class="bg-red-500 text-white rounded py-2 px-3">Sign In</button>
+        </div>
+      </header>
+
+
 </body>
 </html>
